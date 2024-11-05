@@ -8,6 +8,7 @@ body html{
     padding: 0;
 }
 
+
 .pealkiri {
     font-family: "Ananda";
     font-size:3rem;
@@ -16,9 +17,26 @@ body html{
 
 .lingid {
     font-size:1.5rem;
+    vertical-align: middle;
 
 }
 
 a + a {
     margin-left: 2rem;
+    line-height: 10rem;
+}
+
+.logobutton {
+    width:3rem;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+a + .logobutton {
+    margin-left: 5rem;
+}
+
+.logobutton + .logobutton {
+    margin-left: 2rem;
+    
 }
